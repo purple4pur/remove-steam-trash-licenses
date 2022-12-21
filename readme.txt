@@ -5,8 +5,8 @@
 Usage
 ============
 
-1. 打开 https://steamdb.info/calculator/<steamid>/?cc=cn&all_games，按
-   需要排序，找到整页都是不要的游戏
+1. 打开 https://steamdb.info/calculator/<steamid>/?cc=cn&all_games ，
+   按需要排序，找到整页都是不要的游戏
 2. 右键检查，复制包含表格的 html（如 <body>），粘贴到 vim 里，可以多找
    一两页粘贴到一起
 3. vim 执行 ':so appid.vim' 得到指向 subs 的链接，手动复制到 url.txt 里
